@@ -24,14 +24,24 @@ It was built as part of a backend development checkpoint to understand basic Nod
 ## 📂 Project Structure
 
 ```
-project-folder/
-│
-├── index.js        # Main Node.js script
-├── input.txt       # File used for reading data
-├── output.txt      # File created/written by the script
-└── README.md
+checkpoint-1/
+|
+|-- Asynchronous.js
+|-- Synchronous.js
+|-- README.md
+|
+|-- dev-data/
+|   |
+|   `-- data.json
+|
+`-- txt/
+    |
+    |-- append.txt
+    |-- final.txt
+    |-- input.txt
+    |-- output.txt
+    `-- read-this.txt
 ```
-
 
 ---
 
@@ -43,12 +53,12 @@ git clone <repository-url>
 ```
  2.Change directory into the project folder
  ```
-cd <project folder>
+cd <Checkpoint-1>
 ```
 
  3.Run the project
 ```
-node index.js
+node <filename.js>
 ```
 
 
